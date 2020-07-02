@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="14aag">
+    <Package name="logistics">
+        <Key ID="STR_14aag_logistics_ammo_hq">
+            <English>Viking HQ Ammo Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_ammo_v11">
+            <English>Viking V11 Ammo Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_ammo_v12">
+            <English>Viking V12 Ammo Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_ammo_v13">
+            <English>Viking V13 Ammo Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_ammo_loki">
+            <English>Loki Ammo Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_ammo_soar">
+            <English>SOAR Ammo Box</English>
+        </Key>
+
+        <Key ID="STR_14aag_logistics_weapons_hq">
+            <English>Viking HQ Weapons Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_weapons_v11">
+            <English>Viking V11 Weapons Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_weapons_v12">
+            <English>Viking V12 Weapons Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_weapons_v13">
+            <English>Viking V13 Weapons Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_weapons_loki">
+            <English>Loki Weapons Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_weapons_soar">
+            <English>SOAR Weapons Box</English>
+        </Key>
+
+        <Key ID="STR_14aag_logistics_explosives_hq">
+            <English>Viking HQ Explosives Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_explosives_v11">
+            <English>Viking V11 Explosives Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_explosives_v12">
+            <English>Viking V12 Explosives Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_explosives_v13">
+            <English>Viking V13 Explosives Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_explosives_loki">
+            <English>Loki Explosives Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_explosives_soar">
+            <English>SOAR Explosives Box</English>
+        </Key>
+
+        <Key ID="STR_14aag_logistics_grenades_hq">
+            <English>Viking HQ Grenades Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_grenades_v11">
+            <English>Viking V11 Grenades Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_grenades_v12">
+            <English>Viking V12 Grenades Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_grenades_v13">
+            <English>Viking V13 Grenades Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_grenades_loki">
+            <English>Loki Grenades Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_grenades_soar">
+            <English>SOAR Grenades Box</English>
+        </Key>
+
+        <Key ID="STR_14aag_logistics_launcher_hq">
+            <English>Viking HQ Launcher Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_launcher_v11">
+            <English>Viking V11 Launcher Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_launcher_v12">
+            <English>Viking V12 Launcher Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_launcher_v13">
+            <English>Viking V13 Launcher Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_launcher_loki">
+            <English>Loki Launcher Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_launcher_soar">
+            <English>SOAR Launcher Box</English>
+        </Key>
+
+        <Key ID="STR_14aag_logistics_special_hq">
+            <English>Viking HQ Special Purpose Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_special_v11">
+            <English>Viking V11 Special Purpose Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_special_v12">
+            <English>Viking V12 Special Purpose Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_special_v13">
+            <English>Viking V13 Special Purpose Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_special_loki">
+            <English>Loki Special Purpose Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_special_soar">
+            <English>SOAR Special Purpose Box</English>
+        </Key>
+
+        <Key ID="STR_14aag_logistics_support_hq">
+            <English>Viking HQ Support Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_support_v11">
+            <English>Viking V11 Support Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_support_v12">
+            <English>Viking V12 Support Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_support_v13">
+            <English>Viking V13 Support Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_support_loki">
+            <English>Loki Support Box</English>
+        </Key>
+        <Key ID="STR_14aag_logistics_support_soar">
+            <English>SOAR Support Box</English>
+        </Key>
+    </Package>
+</Project>

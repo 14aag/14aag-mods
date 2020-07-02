@@ -1,0 +1,9 @@
+name = "14aag"
+prefix = "14aag"
+author = "14AAG"
+template = "cba"
+mainprefix = "z"
+include = ["./include"]
+files = ["mod.cpp"]
+folder_optionals = true
+sig_version = 3
