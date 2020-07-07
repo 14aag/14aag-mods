@@ -5,6 +5,8 @@ class CfgVehicles {
         vehicleClass = QEGVAR(main,ammunition);
         editorCategory = QEGVAR(main,static);
         editorSubcategory = QEGVAR(main,ammunition);
+        maximumLoad=2000;
+        ace_cargo_size=1;
         class TransportMagazines {};
         class TransportWeapons {};
         class TransportItems {};
@@ -70,6 +72,7 @@ class CfgVehicles {
         vehicleClass = QEGVAR(main,ammunition);
         editorCategory = QEGVAR(main,static);
         editorSubcategory = QEGVAR(main,ammunition);
+        ace_cargo_size=4;
         class TransportMagazines {};
         class TransportWeapons {};
         class TransportItems {};
@@ -135,6 +138,8 @@ class CfgVehicles {
         vehicleClass = QEGVAR(main,ammunition);
         editorCategory = QEGVAR(main,static);
         editorSubcategory = QEGVAR(main,ammunition);
+        maximumLoad=2000;
+        ace_cargo_size=1;
         class TransportMagazines {};
         class TransportWeapons {};
         class TransportItems {};
@@ -200,6 +205,8 @@ class CfgVehicles {
         vehicleClass = QEGVAR(main,ammunition);
         editorCategory = QEGVAR(main,static);
         editorSubcategory = QEGVAR(main,ammunition);
+        maximumLoad=2000;
+        ace_cargo_size=1;
         class TransportMagazines {};
         class TransportWeapons {};
         class TransportItems {};
@@ -265,6 +272,8 @@ class CfgVehicles {
         vehicleClass = QEGVAR(main,ammunition);
         editorCategory = QEGVAR(main,static);
         editorSubcategory = QEGVAR(main,ammunition);
+        maximumLoad=5000;
+        ace_cargo_size=4;
         class TransportMagazines {};
         class TransportWeapons {};
         class TransportItems {};
@@ -330,6 +339,8 @@ class CfgVehicles {
         vehicleClass = QEGVAR(main,ammunition);
         editorCategory = QEGVAR(main,static);
         editorSubcategory = QEGVAR(main,ammunition);
+        maximumLoad=5000;
+        ace_cargo_size=4;
         class TransportMagazines {};
         class TransportWeapons {};
         class TransportItems {};
@@ -395,6 +406,8 @@ class CfgVehicles {
         vehicleClass = QEGVAR(main,ammunition);
         editorCategory = QEGVAR(main,static);
         editorSubcategory = QEGVAR(main,ammunition);
+        maximumLoad=2000;
+        ace_cargo_size=1;
         class TransportMagazines {};
         class TransportWeapons {};
         class TransportItems {};
@@ -452,5 +465,59 @@ class CfgVehicles {
             "A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
         };
         displayName = CSTRING(support_soar);
+    };
+
+    class B_supplyCrate_F;
+    class GVAR(supplyCrate_HQ_base): B_supplyCrate_F {
+        scope = 0;
+        vehicleClass = QEGVAR(main,ammunition);
+        editorCategory = QEGVAR(main,static);
+        editorSubcategory = QEGVAR(main,ammunition);
+        maximumLoad=5000;
+        ace_cargo_size=5;
+        class TransportMagazines {};
+        class TransportWeapons {};
+        class TransportItems {};
+    };
+
+    class GVAR(supplyCrate_HQ): GVAR(supplyCrate_HQ_base) {
+        scope = 2;
+        hiddenSelectionsTextures[] = {};
+        displayName = CSTRING(supplyCrate_HQ);
+    };
+
+    class B_CargoNet_01_ammo_F;
+    class GVAR(CargoNet_HQ_base): B_CargoNet_01_ammo_F {
+        scope = 0;
+        vehicleClass = QEGVAR(main,ammunition);
+        editorCategory = QEGVAR(main,static);
+        editorSubcategory = QEGVAR(main,ammunition);
+        maximumLoad=6000;
+        ace_cargo_size=6;
+        class TransportMagazines {};
+        class TransportWeapons {};
+        class TransportItems {};
+    };
+
+    class GVAR(CargoNet_HQ): GVAR(CargoNet_HQ_base) {
+        scope = 2;
+        hiddenSelectionsTextures[] = {};
+        displayName = CSTRING(supplyCrate_HQ);
+    };
+
+    class Land_Pod_Heli_Transport_04_box_F;
+    class GVAR(Taru_Pod_HQ): Land_Pod_Heli_Transport_04_box_F {
+        scope = 2;
+        vehicleClass = QEGVAR(main,ammunition);
+        editorCategory = QEGVAR(main,static);
+        editorSubcategory = QEGVAR(main,ammunition);
+        hiddenSelectionsTextures[] = {
+            "A3\air_f_heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_Black_CO.paa",
+            "A3\air_f_heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_Black_CO.paa"
+        };
+        class TransportMagazines {};
+        class TransportWeapons {};
+        class TransportItems {};
+        displayName = CSTRING(Taru_Pod_HQ);
     };
 };
