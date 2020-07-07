@@ -45,7 +45,10 @@ class CfgPatches {
             QGVAR(support_v12),
             QGVAR(support_v13),
             QGVAR(support_loki),
-            QGVAR(support_soar)
+            QGVAR(support_soar),
+            QGVAR(supplycrate_hq),
+            QGVAR(cargonet_hq),
+            QGVAR(taru_pod_hq)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
