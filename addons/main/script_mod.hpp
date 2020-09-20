@@ -1,5 +1,5 @@
 #define MAINPREFIX z
-#define PREFIX 14aag
+#define PREFIX aag14
 
 #include "script_version.hpp"
 

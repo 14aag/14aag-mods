@@ -52,7 +52,7 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"14aag_common"};
+        requiredAddons[] = {"aag14_common", "ace_dragging"};
         author = "14AAG";
         VERSION_CONFIG;
     };

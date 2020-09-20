@@ -1,5 +1,5 @@
 #define COMPONENT logistics
-#include "\z\14aag\addons\main\script_mod.hpp"
+#include "\z\aag14\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -11,4 +11,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_LOGISTICS
 #endif
 
-#include "\z\14aag\addons\main\script_macros.hpp"
+#include "\z\aag14\addons\main\script_macros.hpp"
