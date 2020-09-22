@@ -5,7 +5,7 @@ class CfgVehicles {
         vehicleClass = QEGVAR(common,ammunition);
         editorCategory = QEGVAR(common,static);
         editorSubcategory = QEGVAR(common,ammunition);
-        maximumLoad = 2000;
+        maximumLoad = 1000;
         ace_cargo_size = 1;
         class TransportMagazines {};
         class TransportWeapons {};
@@ -72,7 +72,8 @@ class CfgVehicles {
         vehicleClass = QEGVAR(common,ammunition);
         editorCategory = QEGVAR(common,static);
         editorSubcategory = QEGVAR(common,ammunition);
-        ace_cargo_size = 4;
+        maximumLoad = 1600;
+        ace_cargo_size = 1;
         class TransportMagazines {};
         class TransportWeapons {};
         class TransportItems {};
@@ -138,7 +139,7 @@ class CfgVehicles {
         vehicleClass = QEGVAR(common,ammunition);
         editorCategory = QEGVAR(common,static);
         editorSubcategory = QEGVAR(common,ammunition);
-        maximumLoad = 2000;
+        maximumLoad = 1000;
         ace_cargo_size = 1;
         class TransportMagazines {};
         class TransportWeapons {};
@@ -205,7 +206,7 @@ class CfgVehicles {
         vehicleClass = QEGVAR(common,ammunition);
         editorCategory = QEGVAR(common,static);
         editorSubcategory = QEGVAR(common,ammunition);
-        maximumLoad = 2000;
+        maximumLoad = 1000;
         ace_cargo_size = 1;
         class TransportMagazines {};
         class TransportWeapons {};
@@ -272,8 +273,8 @@ class CfgVehicles {
         vehicleClass = QEGVAR(common,ammunition);
         editorCategory = QEGVAR(common,static);
         editorSubcategory = QEGVAR(common,ammunition);
-        maximumLoad = 5000;
-        ace_cargo_size = 4;
+        maximumLoad = 500;
+        ace_cargo_size = 2;
         class TransportMagazines {};
         class TransportWeapons {};
         class TransportItems {};
@@ -340,8 +341,8 @@ class CfgVehicles {
         vehicleClass = QEGVAR(common,ammunition);
         editorCategory = QEGVAR(common,static);
         editorSubcategory = QEGVAR(common,ammunition);
-        maximumLoad = 5000;
-        ace_cargo_size = 4;
+        maximumLoad = 2000;
+        ace_cargo_size = 3;
         class TransportMagazines {};
         class TransportWeapons {};
         class TransportItems {};
@@ -407,7 +408,7 @@ class CfgVehicles {
         vehicleClass = QEGVAR(common,ammunition);
         editorCategory = QEGVAR(common,static);
         editorSubcategory = QEGVAR(common,ammunition);
-        maximumLoad = 2000;
+        maximumLoad = 1000;
         ace_cargo_size = 1;
         class TransportMagazines {};
         class TransportWeapons {};
@@ -474,7 +475,7 @@ class CfgVehicles {
         vehicleClass = QEGVAR(common,ammunition);
         editorCategory = QEGVAR(common,static);
         editorSubcategory = QEGVAR(common,ammunition);
-        maximumLoad = 5000;
+        maximumLoad = 8000;
         ace_cargo_size = 5;
         class TransportMagazines {};
         class TransportWeapons {};
@@ -496,7 +497,7 @@ class CfgVehicles {
         vehicleClass = QEGVAR(common,ammunition);
         editorCategory = QEGVAR(common,static);
         editorSubcategory = QEGVAR(common,ammunition);
-        maximumLoad = 6000;
+        maximumLoad = 16000;
         ace_cargo_size = 6;
         class TransportMagazines {};
         class TransportWeapons {};
