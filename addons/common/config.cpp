@@ -31,4 +31,5 @@ class CfgEditorSubcategories {
     };
 };
 
+#include "CfgVehicles.hpp"
 #include "CfgEventHandlers.hpp"
