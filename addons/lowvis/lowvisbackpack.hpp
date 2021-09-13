@@ -1,11 +1,10 @@
 class Bag_Base;
-class lowvis_bag : Bag_Base
-{
+class GVAR(bag) : Bag_Base {
 	author = "Piper";
 	scope = 2;
-	model = QPATHTOF(Data\nullbackpack);
+	model = QPATHTOF(data\nullbackpack);
 	displayName = "LowVis Bag";
-	picture = QPATHTOF(Data\null_backpack.paa);
+	picture = QPATHTOF(data\null_backpack.paa);
 	hiddenSelectionsTextures[]= {};
 	maximumLoad = 70;
 	mass = 0;

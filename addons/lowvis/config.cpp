@@ -11,11 +11,10 @@ class CfgPatches {
         VERSION_CONFIG;
     };
 };
-	
 
 class CfgWeapons {
-	#include "lowvisvest.hpp"
+    #include "lowvisvest.hpp"
 };
-class Cfgvehicles {
-	#include "lowvisbackpack.hpp"
+class CfgVehicles {
+    #include "lowvisbackpack.hpp"
 };
